@@ -9,11 +9,11 @@ for num in arr:
         freq[num]=1
         
 q= int(input())
-qu=[]
+queries=[]
 for p in range(q):
-    qu.append(int(input()))
+    queries.append(int(input()))
 res=[]
-for x in qu:
+for x in queries:
     res.append(freq.get(x,0))
 for r in res:
     print(r)
